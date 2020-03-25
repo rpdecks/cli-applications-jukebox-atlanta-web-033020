@@ -52,6 +52,10 @@ def run
   puts "Please enter a command:"
   help
   user_command = gets.strip
-  if user_command
+  if user_command == "help"
+    help
+  elsif user_command == ""
+  elsif user_command == ""
+  elsif user_command == ""
 end
 
