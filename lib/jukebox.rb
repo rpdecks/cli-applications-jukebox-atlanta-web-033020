@@ -50,7 +50,8 @@ end
 
 def run 
   puts "Please enter a command:"
+  help
   user_command = gets.strip
-  
+  if user_command
 end
 
