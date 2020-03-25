@@ -52,10 +52,14 @@ def run
   puts "Please enter a command:"
   help
   user_command = gets.strip
-  if user_command == "help"
-    help
-  elsif user_command == ""
-  elsif user_command == ""
-  elsif user_command == ""
+    if user_command == "help"
+      help
+    elsif user_command == "list"
+      list(songs)
+    elsif user_command == "play"
+      play(songs)
+    elsif user_command == "exit"
+      exit_jukebox  
+    end
 end
 
