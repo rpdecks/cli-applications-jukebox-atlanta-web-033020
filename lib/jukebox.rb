@@ -50,7 +50,6 @@ end
 
 def run 
   until user_command == "exit" do
-    run 
     puts "Please enter a command:"
     user_command = gets.strip
       if user_command == "help"
