@@ -50,7 +50,8 @@ end
 
 def run 
   puts "Please enter a command:"
-  help
+  until user_command == "exit" do
+    run 
   user_command = gets.strip
     if user_command == "help"
       help
