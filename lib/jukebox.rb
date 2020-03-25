@@ -49,6 +49,7 @@ def exit_jukebox
 end
 
 def run(songs) 
+  user_command = nil
   until user_command == "exit" do
     puts "Please enter a command:"
     user_command = gets.strip
