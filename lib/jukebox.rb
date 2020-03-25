@@ -59,7 +59,7 @@ def run
     elsif user_command == "play"
       play(songs)
     elsif user_command == "exit"
-      exit_jukebox  
+      exit_jukebox
     end
 end
 
